@@ -21,6 +21,7 @@
 
 <script setup>
 import { chartOptions } from "@/components/ECharts/optionsConfig";
+import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
 const loading = ref(true);

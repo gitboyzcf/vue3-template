@@ -10,7 +10,7 @@ const i18n = createI18n({
   locale: useSystem.language,
   globalInjection: true,
   messages: {
-    'zh-CN': zhCN,
+    zh: zhCN,
     en: enUS
   }
 })

@@ -51,7 +51,7 @@
   const langs = [
     {
       label: '简体中文',
-      value: 'zh-CN'
+      value: 'zh'
     },
     {
       label: 'English',
@@ -60,7 +60,7 @@
   ]
   const switchLanguage = (v) => {
     switch (v) {
-      case 'zh-Cn':
+      case 'zh':
         dayjs.locale('zh-cn')
         break
       case 'en':

@@ -12,7 +12,7 @@ watch(
   [() => useSystem.language, () => useSystem.scheme],
   ([newL, newS]) => {
     switch (newL) {
-      case 'zh-CN':
+      case 'zh':
         locale.value = zhCN
         dateLocale.value = dateZhCN
         break
