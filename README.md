@@ -101,14 +101,14 @@ pnpm build
 2. **安装图标所在的图标库**
 
     ```sh
-    # 格式：pnpm add -D @iconify-json/[the-collection-you-want]
+    # 格式：pnpm add @iconify-json/[the-collection-you-want] -D
 
     # 例如
-    pnpm add -D @iconify-json/eq
+    pnpm add @iconify-json/ep -D
     ```
 
     安装完后可以使用当前库下的所有图标
-    [https://icon-sets.iconify.design/ep/apple/](https://icon-sets.iconify.design/ep/apple/)
+    [https://icon-sets.iconify.design/ep/](https://icon-sets.iconify.design/ep/)
 3. **项目中使用**
     使用unocss的方式[https://iconify.design/docs/usage/css/unocss/#icons-with-unocss](https://iconify.design/docs/usage/css/unocss/#icons-with-unocss)
 
