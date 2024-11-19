@@ -38,9 +38,7 @@ export default ({ mode }) => {
       vue(),
       vueJsx(),
       // basicSsl(),
-      Unocss({
-        presets: [presetUno(), presetAttributify(), presetIcons()]
-      }),
+      Unocss({}),
       AutoImport({
         imports: [
           'vue',

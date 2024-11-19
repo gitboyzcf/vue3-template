@@ -42,9 +42,11 @@ pnpm build
 
 <!-- - 🗂 [基于文件的路由](./src/pages) -->
 
-- 📦 [组件自动化引入](https://github.com/antfu/unplugin-vue-components)
+- 📦 [组件自动化引入](https://github.com/unplugin/unplugin-vue-components)
 
 - 🍍 [使用 Pinia 的状态管理](https://pinia.vuejs.org)
+
+- 🌈 [Primevue](https://primevue.org/) - Vue.js UI 套件，提高开发效率
 
 <!-- - 📑 [布局系统](./src/layouts) -->
 
@@ -60,9 +62,14 @@ pnpm build
 
 - 🔥 使用 [新的 `<script setup>` 语法](https://github.com/vuejs/rfcs/pull/227)
 
-- 📥 [API 自动加载](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 无需引入
+- 📥 [API 自动加载](https://github.com/unplugin/unplugin-auto-import) - 直接使用 Composition API 无需引入
 
-- 🌍 [API 采用模块化自动导入方式](https://blog.csdn.net/qq_43775179/article/details/134811292) - 根据demo.js文件设置接口，以API_xxx_method的方式命名，在请求时无需导入 直接使用useRequest()函数返回参数以解构的方式获取，拿到即为写入的接口
+- 🌍 [API 采用模块化自动导入方式](https://blog.csdn.net/qq_43775179/article/details/134811292) 根据demo.js文件设置接口，以API_xxx_method的方式命名，在请求时无需导入 直接使用useRequest()函数返回参数以解构的方式获取，拿到即为写入的接口
+
+- 💥 [Oxlint](https://oxc.rs/docs/guide/usage/linter.html)（英）+ [ESLint](https://eslint.org/)（英） - 双管齐下，享受高速度、强检查的代码格式化效果
+- 🐶 [husky](https://typicode.github.io/husky/zh/) + [lint-staged](https://github.com/lint-staged/lint-staged?tab=readme-ov-file#-lint-staged) - Git提交自动检测格式化代码，解放双手
+
+- 🎢 无TS，释放你的野性
 
 ## 🍺 vscode 插件
 
