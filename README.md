@@ -5,7 +5,7 @@
 ### 获取项目代码
 
 ```bash
-git clone https://github.com/gitboyzcf/vue3-template.git
+git clone https://github.com/gitboyzcf/vue3-vite-template.git
 ```
 
 ### 安装依赖
