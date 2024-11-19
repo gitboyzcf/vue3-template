@@ -81,7 +81,7 @@ export default {
         emoji: ':hammer:'
       }
     ],
-    useEmoji: false,
+    useEmoji: true,
     emojiAlign: 'center',
     useAI: false,
     aiNumber: 1,
