@@ -7,7 +7,6 @@ import Components from 'unplugin-vue-components/vite'
 import Icons from 'unplugin-icons/vite'
 // import basicSsl from '@vitejs/plugin-basic-ssl'
 import Unocss from 'unocss/vite'
-import { presetUno, presetAttributify, presetIcons } from 'unocss'
 import { PrimeVueResolver } from '@primevue/auto-import-resolver'
 
 // https://vitejs.dev/config/

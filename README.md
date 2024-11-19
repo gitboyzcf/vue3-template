@@ -77,7 +77,7 @@ pnpm build
 - 🍬 dotenv
 - 🍿 prettier-vscode
 - 🍪 vscode-eslint
-- 🍺 unocss
+- 🍡 unocss
 - 🍦 iconify
 - 🍰 volar
 - 🎂 errorlens
@@ -105,6 +105,8 @@ pnpm build
 1. **前往图标库查找相关图标[icon](https://icon-sets.iconify.design/?category=General)**
 2. **安装图标所在的图标库**
 
+   **方式一⬇️**
+
    ```sh
    # 格式：pnpm add @iconify-json/[the-collection-you-want] -D
 
@@ -113,6 +115,8 @@ pnpm build
    ```
 
    安装完后可以使用当前库下的所有图标 [https://icon-sets.iconify.design/ep/](https://icon-sets.iconify.design/ep/)
+
+   **方式二⬇️** [https://iconify.design/docs/icon-components/vue/](https://iconify.design/docs/icon-components/vue/)
 
 3. **项目中使用** 使用unocss的方式[https://iconify.design/docs/usage/css/unocss/#icons-with-unocss](https://iconify.design/docs/usage/css/unocss/#icons-with-unocss)
 
