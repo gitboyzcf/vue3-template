@@ -11,7 +11,7 @@ import { presetUno, presetAttributify, presetIcons } from 'unocss'
 import { PrimeVueResolver } from '@primevue/auto-import-resolver'
 
 // https://vitejs.dev/config/
-export default ({ mode, command }) => {
+export default ({ mode }) => {
   // const env = loadEnv(mode, process.cwd())
   return defineConfig({
     base: './',

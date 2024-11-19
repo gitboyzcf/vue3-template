@@ -81,7 +81,7 @@ export const chartOptions = {
   setOption2(data) {
     function Pie() {
       let dataArr = []
-      for (var i = 0; i < 150; i++) {
+      for (let i = 0; i < 150; i++) {
         if (i % 2 === 0) {
           dataArr.push({
             name: (i + 1).toString(),

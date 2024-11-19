@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "oxlint && eslint",
     "lint:fix": "oxlint --fix && eslint --fix",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky init"
+    "prepare": "husky init",
+    "cz": "git-cz"
   },
   "dependencies": {
     "@primevue/themes": "^4.2.1",
@@ -48,8 +49,10 @@
     "@vitejs/plugin-vue": "^5.1.4",
     "@vitejs/plugin-vue-jsx": "^4.0.1",
     "autoprefixer": "^10.4.20",
+    "commitizen": "^4.3.1",
     "commitlint": "^19.5.0",
     "consola": "^3.2.3",
+    "cz-git": "^1.11.0",
     "eslint": "^9.14.0",
     "eslint-plugin-json-es": "^1.6.0",
     "eslint-plugin-oxlint": "^0.11.0",
@@ -72,12 +75,9 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "lint-staged": {
-    "**/*.{html,vue,ts,cjs,json,md}": [
-      "prettier --write"
-    ],
-    "**/*.{vue,js,ts,jsx,tsx}": [
-      "oxlint --fix && eslint --fix"
-    ]
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   }
 }

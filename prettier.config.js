@@ -1,3 +1,7 @@
+/**
+ * @see https://prettier.io/docs/en/configuration.html
+ * @type {import("prettier").Config}
+ */
 export default {
   // 一行的字符数，如果超过会进行换行，默认为80，官方建议设100-120其中一个数
   printWidth: 100,
