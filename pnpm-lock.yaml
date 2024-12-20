@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@primevue/core':
+    specifier: ^4.2.5
+    version: 4.2.5(vue@3.5.12)
   '@primevue/themes':
     specifier: ^4.2.1
     version: 4.2.1
@@ -44,6 +47,9 @@ dependencies:
   pinia:
     specifier: ^2.2.6
     version: 2.2.6(typescript@5.6.3)(vue@3.5.12)
+  primeicons:
+    specifier: ^7.0.0
+    version: 7.0.0
   primevue:
     specifier: ^4.2.1
     version: 4.2.1(vue@3.5.12)
@@ -1321,8 +1327,20 @@ packages:
       '@primeuix/utils': 0.3.0
     dev: false
 
+  /@primeuix/styled@0.3.2:
+    resolution: {integrity: sha512-ColZes0+/WKqH4ob2x8DyNYf1NENpe5ZguOvx5yCLxaP8EIMVhLjWLO/3umJiDnQU4XXMLkn2mMHHw+fhTX/mw==}
+    engines: {node: '>=12.11.0'}
+    dependencies:
+      '@primeuix/utils': 0.3.2
+    dev: false
+
   /@primeuix/utils@0.3.0:
     resolution: {integrity: sha512-d6ymWez1n+iqwzAVhyOTmrOHl5qnSX2oGlTy97qGuA15gLai+MQaxONHFNdDia8Q7o396v7KK9IvhAx9VET/+A==}
+    engines: {node: '>=12.11.0'}
+    dev: false
+
+  /@primeuix/utils@0.3.2:
+    resolution: {integrity: sha512-B+nphqTQeq+i6JuICLdVWnDMjONome2sNz0xI65qIOyeB4EF12CoKRiCsxuZ5uKAkHi/0d1LqlQ9mIWRSdkavw==}
     engines: {node: '>=12.11.0'}
     dev: false
 
@@ -1341,6 +1359,17 @@ packages:
     dependencies:
       '@primeuix/styled': 0.3.0
       '@primeuix/utils': 0.3.0
+      vue: 3.5.12(typescript@5.6.3)
+    dev: false
+
+  /@primevue/core@4.2.5(vue@3.5.12):
+    resolution: {integrity: sha512-+oWBIQs5dLd2Ini4KEVOlvPILk989EHAskiFS3R/dz3jeOllJDMZFcSp8V9ddV0R3yDaPdLVkfHm2Q5t42kU2Q==}
+    engines: {node: '>=12.11.0'}
+    peerDependencies:
+      vue: ^3.3.0
+    dependencies:
+      '@primeuix/styled': 0.3.2
+      '@primeuix/utils': 0.3.2
       vue: 3.5.12(typescript@5.6.3)
     dev: false
 
@@ -4586,6 +4615,10 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
     dev: true
+
+  /primeicons@7.0.0:
+    resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
+    dev: false
 
   /primevue@4.2.1(vue@3.5.12):
     resolution: {integrity: sha512-cU9ZQVq9fitsQEIrfGeIl7xELBn61JCMxWkzcS9dkr165g29AvUrUNS9ufs1t2NoMJzE8VllwzweF/tSFAr2cw==}

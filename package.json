@@ -10,10 +10,11 @@
     "lint": "oxlint && eslint",
     "lint:fix": "oxlint --fix && eslint --fix",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky init",
+    "prepare": "husky",
     "cz": "git-cz"
   },
   "dependencies": {
+    "@primevue/core": "^4.2.5",
     "@primevue/themes": "^4.2.1",
     "@vueuse/core": "^11.2.0",
     "animate.css": "^4.1.1",
@@ -27,6 +28,7 @@
     "lodash-es": "^4.17.21",
     "mitt": "^3.0.1",
     "pinia": "^2.2.6",
+    "primeicons": "^7.0.0",
     "primevue": "^4.2.1",
     "swiper": "^11.1.14",
     "uuid": "^11.0.2",
